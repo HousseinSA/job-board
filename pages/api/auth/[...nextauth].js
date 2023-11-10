@@ -1,7 +1,7 @@
 import NextAuth from "next-auth"
 import GoogleProvider from "next-auth/providers/google"
 import {MongoDBAdapter} from "@auth/mongodb-adapter"
-import clientPromise from "../"
+import clientPromise from "../../../lib/mongoClient"
 
 export default NextAuth({
   adapter: MongoDBAdapter(clientPromise),
