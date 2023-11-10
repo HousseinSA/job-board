@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Hebrew:wght@800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;500;600;700&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+  @apply leading-[normal] m-0;
+}
+*,
+::before,
+::after {
+  border-width: 0;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+
+/* .main_container_padding {
+  @apply px-[3.13rem] sm:px-[0.63rem] mq580:px-[1.25rem] mq580:box-border;
+} */
+
+
+select  {
+  @apply  w-[82px] h-[33px] py-4
+}
+option  {
+  @apply  w-[82px] h-[33px] py-4
+}
